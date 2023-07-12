@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+output:
+  html_document:
+    includes:
+      in_header: include.html
